@@ -1,0 +1,30 @@
+# project title - Watch world (Django project for online selling of watches)
+
+#python version - 3.7.6
+
+# admin panel --->> id=user1    pass=user10702
+
+### Installations
+# cd django-ecommerce
+# pip install -r requirements.txt
+# python manage.py makemigrations
+# python manage.py migrate
+# python manage.py runserver
+
+### list of requirements implemented
+# user registration
+# user login
+# Add and remove watches from admin panel
+# manage categories of watches from admin panel
+# manage reviews of watches from admin panel
+# search watches using eihter filter or categories
+# add watches into cart
+# add review by user
+# checkout
+# user sign out
+
+django==2.1.5
+django-autoslug-iplweb==1.9.4
+pillow==5.3.0
+django-bootstrap4==0.0.7
+djangorestframework==3.8.2
